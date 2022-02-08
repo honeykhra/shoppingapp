@@ -1,10 +1,13 @@
-import React from "react";
+import { styled } from "@mui/material";
+import Navbar from "../components/Navbar";
+
+const Container = styled.div``;
 
 const ProductList = () => {
   return (
-    <div>
-      <div>ProductList</div>
-    </div>
+    <Container>
+      <Navbar />
+    </Container>
   );
 };
 
